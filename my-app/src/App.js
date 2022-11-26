@@ -1,11 +1,12 @@
-import './navbar'
 import './App.css';
-import NavBar from './navbar';
+import { NavBar } from './components/navbar';
+import { CalendarWidget } from './components/calendar';
 
 function App() {
   return (
     <div className="App">
-      <NavBar/>
+      <NavBar />
+      <CalendarWidget />
     </div>
   );
 }
